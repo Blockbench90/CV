@@ -6,34 +6,30 @@ import classNames from "classnames";
 
 const useStyles = makeStyles(styles);
 
-export default function Frontend() {
+export default function Skills() {
     const classes = useStyles();
     const text = classNames(classes.title, classes.textCenter);
     return (
         <div className={classes.section}>
             <div className={classes.container}>
 
-                <h3 className={text}>Frontend:</h3>
+                <h3 className={text}>Skills:</h3>
 
                 <div style={{paddingLeft: "15px"}}>
-                    <p className={classes.titleParagraph}>— Javascript, TypeScript.</p>
+                    <p className={classes.titleParagraph}>— Git, GitHub, GitLab</p>
                 </div>
 
                 <div style={{paddingLeft: "15px"}}>
-                    <p className={classes.titleParagraph}>— React, Immer, Axios, Classnames, Date-fns, React-hook-form ...</p>
+                    <p className={classes.titleParagraph}>— BEM.</p>
                 </div>
 
                 <div style={{paddingLeft: "15px"}}>
-                    <p className={classes.titleParagraph}>— Redux, Redux Thunk, Redux Saga, Reselect ...</p>
-                </div>
-                <div style={{paddingLeft: "15px"}}>
-                <p className={classes.titleParagraph}>— CSS, LESS, SASS, Styled-components ...</p>
+                    <p className={classes.titleParagraph}>— MySQL.</p>
                 </div>
 
                 <div style={{paddingLeft: "15px"}}>
-                    <p className={classes.titleParagraph}>— Material-ui, Ant Design ...</p>
+                    <p className={classes.titleParagraph}>— JSON.</p>
                 </div>
-
             </div>
         </div>
     );

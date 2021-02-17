@@ -8,7 +8,7 @@ const profilePageStyle = {
         marginTop: '30px',
         textAlign: "center",
         "& img": {
-            maxWidth: "160px",
+            maxWidth: "240px",
             width: "100%",
             margin: "0 auto",
         }

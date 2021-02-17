@@ -79,7 +79,7 @@ export default function ScrollButton(props) {
             {props.children}
             <ScrollTop {...props}>
                 <Tooltip id="back-to-home" title="Вверх" placement="left" classes={{ tooltip: classes.tooltip }}>
-                <Fab color="secondary" size="large" variant="extended" aria-label="scroll back to top">
+                <Fab color="primary" size="medium" variant="extended" aria-label="scroll back to top">
                     <ArrowUpwardIcon/>
                 </Fab>
                 </Tooltip>

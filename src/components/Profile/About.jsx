@@ -10,6 +10,7 @@ export default function About() {
     const classes = useStyles();
     const text = classNames( classes.title, classes.textCenter);
     return (
+
         <div className={classes.section}>
             <div className={classes.container}>
 
