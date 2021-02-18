@@ -60,7 +60,7 @@ const profilePageStyle = {
         color: "#999"
     },
     navWrapper: {
-        margin: "20px auto 50px auto",
+        margin: "10px auto 50px auto",
         overflowX: "hidden"
     }
 };

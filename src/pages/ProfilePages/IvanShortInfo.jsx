@@ -29,34 +29,46 @@ export default function IvanShortInfo() {
                                     <img src={profile} alt="..." className={imageClasses}/>
                                 </div>
                                 <h3 className={classes.title}>Литвиненко Иван</h3>
-                                <h3>Frontend Developer</h3>
-                                <div className={classes.name}>
+                                <h3>Front-End (Full Stack) Developer</h3>
 
-                                    <Button href="tel:+380964237550" className={classes.margin5} style={{ fontSize: '18px',}}>
-                                        <Phone/> 096 423 75 50
-                                    </Button>
-
-                                    <Button href="https://t.me/root_lil" className={classes.margin5} style={{ fontSize: '18px',}}>
-                                        <TelegramIcon/> Telegram
-                                    </Button>
-                                </div>
                             </div>
                         </GridItem>
                     </GridContainer>
-                    <div className={classes.description}>
-                        <p>
-                            Когда-то, давным давно, услышал фразу: "Найди работу по душе, и ты никогда в жизни не
-                            будешь работать"!
-                            И знаете что? Оказывается, я в пожизненном отпуске){" "}
-                        </p>
-                    </div>
+
                     <GridContainer justify="center">
                         <GridItem xs={12} sm={12} md={10} className={classes.navWrapper}>
-                            <h6 style={{fontWeight: 400, fontSize: "15px"}}>
-                                И да, не верьте словам, приходите и проверяйте, будем рады.
-                            </h6>
+                            <p style={{fontWeight: 400, fontSize: "15px"}}>
+                               Место жительства: <span style={{fontWeight: 600, fontSize: "17px"}}>Запорожье</span>
+                            </p>
+                            <p style={{fontWeight: 400, fontSize: "15px"}}>
+                                Опыт работы: <span style={{fontWeight: 600, fontSize: "17px"}}>1.8 года</span>
+                            </p>
+                            <p style={{fontWeight: 400, fontSize: "15px"}}>
+                                Телефон: <span style={{fontWeight: 600, fontSize: "17px"}}>096 423 75 50</span>
+                            </p>
+                            <p style={{fontWeight: 400, fontSize: "15px"}}>
+                                Email: <span style={{fontWeight: 600, fontSize: "17px"}}>prog.hak.ak@gmail.com</span>
+                            </p>
                         </GridItem>
                     </GridContainer>
+
+
+                    <GridContainer className={classes.textCenter} justify="center">
+                        <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
+                            <div className={classes.name}>
+                                <Button href="tel:+380964237550" className={classes.margin5} style={{ fontSize: '13px', padding: "12px 10px"}}>
+                                    <Phone style={{marginRight: "10px"}}/> Позвонить
+                                </Button>
+
+                                <Button href="https://t.me/root_lil" className={classes.margin5} style={{ fontSize: '13px', padding: "12px 16px"}}>
+                                    <TelegramIcon style={{marginRight: "10px"}}/> Telegram
+                                </Button>
+                            </div>
+                        </GridItem>
+                    </GridContainer>
+
+                    <br />
+                    <br />
                 </div>
             </div>
         </div>

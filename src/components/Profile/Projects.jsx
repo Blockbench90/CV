@@ -18,7 +18,7 @@ export default function Projects() {
 
                 <h3 className={text}>Projects:</h3>
                 <div style={{paddingLeft: "15px"}}>
-                <h5>Несколько проектов, которые веду в свободное время</h5>
+                <h5>Несколько проектов, которые веду или вел в свободное время</h5>
                     <div >
                         <div>
                             <h5 className={classes.projectName}>Story</h5>
@@ -55,7 +55,7 @@ export default function Projects() {
                     <div>
                         <div>
                             <h5 className={classes.projectName}>hi.zp.ua</h5>
-                            <span className={classes.descriptionAPP}>Простенький сайт.</span>
+                            <span className={classes.descriptionAPP}>Работающий сайт по ремонту компьютерной техники.</span>
                         </div>
                         <div className={classes.projectButton}>
                             <div>

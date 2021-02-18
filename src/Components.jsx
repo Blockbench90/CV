@@ -10,7 +10,7 @@ import ScrollButton from "./utils/ScrollButton/ScrollButton";
 
 const useStyles = makeStyles(styles);
 
-export default function Components(props) {
+export default function Components() {
     const classes = useStyles();
     return (
         <div>
