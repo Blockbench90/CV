@@ -41,7 +41,7 @@ export default function IvanShortInfo() {
                                Место жительства: <span style={{fontWeight: 600, fontSize: "17px"}}>Запорожье</span>
                             </p>
                             <p style={{fontWeight: 400, fontSize: "15px"}}>
-                                Опыт работы: <span style={{fontWeight: 600, fontSize: "17px"}}>1.8 года</span>
+                                Опыт работы: <span style={{fontWeight: 600, fontSize: "17px"}}>1.2 года</span>
                             </p>
                             <p style={{fontWeight: 400, fontSize: "15px"}}>
                                 Телефон: <span style={{fontWeight: 600, fontSize: "17px"}}>096 423 75 50</span>
